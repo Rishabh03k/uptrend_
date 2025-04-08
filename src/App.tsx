@@ -3,7 +3,6 @@ import {
   BarChart3, 
   Users, 
   Search, 
-  MessageSquare, 
   TrendingUp,
   Award,
   Target,
@@ -186,8 +185,11 @@ function App() {
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Elevate your digital presence with data-driven strategies that deliver measurable results
             </p>
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
-              Book a Free Consultation
+            <button
+            onClick={() => window.open(' https://topmate.io/rishabh_kumar17/                  ', '_blank')}
+            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200"
+             >
+            Book a Free Consultation
             </button>
           </div>
         </div>
